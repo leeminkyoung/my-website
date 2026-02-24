@@ -31,7 +31,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px 40px;
+  padding: 0 40px;
   position: sticky;
   top: 0;
   background: rgba(255,255,255,0.6);
@@ -49,6 +49,7 @@ nav.scrolled { border-color: var(--border); }
   justify-content: space-between;
   width: 100%;
   max-width: 1040px;
+  padding: 20px 0;
 }
 
 .nav-logo {
@@ -496,7 +497,8 @@ footer {
 
 /* ─── RESPONSIVE ─── */
 @media (max-width: 768px) {
-  nav { padding: 16px 20px; }
+  nav { padding: 0 20px; }
+  .nav-inner { padding: 16px 0; }
   .nav-links { display: none; }
   .nav-mobile-links { display: flex; }
 
@@ -518,7 +520,8 @@ footer {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  nav { padding: 20px 32px; }
+  nav { padding: 0 32px; }
+  .nav-inner { padding: 20px 0; }
   .page-wrapper { padding: 0 32px; }
   .home-hero { padding: 40px 0 48px; }
   .projects-grid { padding: 0 0 60px; gap: 40px 24px; }
