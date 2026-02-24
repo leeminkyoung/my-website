@@ -82,7 +82,7 @@ nav.scrolled { border-color: var(--border); }
   transition: opacity 0.2s;
 }
 .nav-links a:hover { opacity: 0.5; }
-.nav-links a.active { font-weight: 500; }
+.nav-links a.active { text-decoration: underline; text-underline-offset: 4px; }
 
 .nav-mobile-links {
   display: none;
