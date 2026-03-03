@@ -532,6 +532,7 @@ ul { list-style: none; }
   .about__heading { font-size: var(--text-heading-2); }
 
   .password-gate__inner { flex-direction: column; }
+  .password-gate__field { width: 100%; }
   .password-gate__img-wrap { width: 100%; }
   .cs-meta { grid-template-columns: repeat(2, 1fr); }
   .cs-img-grid { grid-template-columns: 1fr; }
