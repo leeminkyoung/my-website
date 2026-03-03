@@ -294,6 +294,14 @@ ul { list-style: none; }
   gap: 12px;
 }
 
+.about__interest {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+}
+
+.about__interest-icon { flex-shrink: 0; }
+
 .about__photo {
   width: 420px;
   flex-shrink: 0;
