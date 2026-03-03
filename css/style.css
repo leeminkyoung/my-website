@@ -464,6 +464,14 @@ ul { list-style: none; }
   }
 
   .explorations__grid { columns: 2; }
+
+  .footer__links {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .footer__copy { margin-top: 64px; }
 }
 
 /* Mobile (0–799px) */
