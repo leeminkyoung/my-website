@@ -512,7 +512,7 @@ ul { list-style: none; }
 
   .hero { padding-top: 88px; }
 
-  .hero__text { font-size: var(--text-body-1); }
+  .hero__text { font-size: var(--text-heading-3); }
 
   .projects__grid { grid-template-columns: 1fr; gap: 40px; }
 
