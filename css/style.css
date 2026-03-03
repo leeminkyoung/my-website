@@ -526,6 +526,8 @@ ul { list-style: none; }
 
   .explorations__grid { columns: 1; }
 
+  .about__inner { padding-top: 160px; }
+
   .about__top { flex-direction: column; }
 
   .about__photo { width: 100%; }
